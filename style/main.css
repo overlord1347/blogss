@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-areas:
+            "hd hd hd"
+            "a1 a2 a3";
+    height: 100vh;
+}
+
+.toppost{
+    grid-area:a1;
+    background-color: darkgoldenrod;
+}
+.blogs{
+    padding: 30px;
+    grid-area: a2;
+    background-color: aqua;
+}
+.topcomments{
+    grid-area: a3;
+    background-color: darkmagenta;
+}
+#commlabel{
+    /*margin-left: 10px;*/
+}
+#comment{
+    resize: none;
+}
