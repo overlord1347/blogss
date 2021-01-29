@@ -17,18 +17,18 @@
         <div class="blogs">
             <div class="vstavka">
                 <h2 class="d-flex justify-content-center">Оставляйте посты и комментируйте их</h2>
-                <form>
+                <form id="commentform">
                     <div class="form-group">
                         <div class="col-md-2">
                             <input id="name" placeholder="введите имя" class="form-control" ></br>
                         </div>
                     </div>
-                    <label class="btn btn-success" for="my-file-selector">
-                        <input type=file id="my-file-selector" accept="image/*" data-type='image' style="display:none"
-                               onchange="$('#upload-file-info').html(this.files[0].name)">
-                        Загрузите изображение
-                    </label>
-                    <span class='label label-info' id="upload-file-info"></span><br/>
+<!--                    <label class="btn btn-success" for="my-file-selector">-->
+<!--                        <input type=file id="my-file-selector" accept="image/*" data-type='image' style="display:none"-->
+<!--                               onchange="$('#upload-file-info').html(this.files[0].name)">-->
+<!--                        Загрузите изображение-->
+<!--                    </label>-->
+<!--                    <span class='label label-info' id="upload-file-info"></span><br/>-->
                     <label id="commlabel">comment</label>
                     <textarea class="form-control" rows="3" id="comment"></textarea><br/>
                     <button type="button" id="otpravka" class="btn btn-success">Отправить</button>
