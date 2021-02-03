@@ -12,10 +12,6 @@ body{
     height: 100vh;
 }
 
-.toppost{
-    grid-area:a1;
-    background-color: darkgoldenrod;
-}
 .blogs{
     padding: 30px;
     grid-area: a2;
@@ -30,4 +26,8 @@ body{
 }
 #comment{
     resize: none;
+}
+.lastcomments{
+    grid-area:a1;
+    background-color: yellowgreen;
 }

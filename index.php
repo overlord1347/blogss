@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="header"></div>
+        <div class="header">header</div>
         <div class="blogs">
             <div class="vstavka">
                 <h2 class="d-flex justify-content-center">Оставляйте посты и комментируйте их</h2>
@@ -38,7 +38,13 @@
             <script src="js/ajaxupload.js"></script>
             <div class="vivod"></div>
         </div>
-        <div class="toppost"></div>
+        <div class="lastcomments">
+            <section id="newcomm"></section>
+            <section id="comm"></section>
+<!--            <p id="p1">привет</p><br/> -->
+<!--            <p id="p2">как дела</p>-->
+        </div>
+        <script src="js/ajaxout.js"></script>
         <div class="topcomments"></div>
     </div>
 </body>
